@@ -1,4 +1,5 @@
 # **JavaFX Produktionstest in JabRef 3.6**
+WARNUNG - Die Fehlerquellen stammen von einer alten Version des JavaFX Branches und sind inzwischen größtenteils behoben! 
 
 Issue: [https://github.com/koppor/stupro-jabref/issues/2](https://github.com/koppor/stupro-jabref/issues/2)
 
