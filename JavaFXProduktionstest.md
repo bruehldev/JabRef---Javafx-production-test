@@ -1,5 +1,5 @@
 # **JavaFX Produktionstest in JabRef 3.6**
-**WARNUNG - Die Fehlerquellen stammen von einer alten Version des JavaFX Branches und sind inzwischen größtenteils behoben!** 
+**WARNUNG - Die Fehlerquellen stammen von einer alten Version (JabRef 3.6 - 26.07.2016) des JavaFX Branches und sind inzwischen größtenteils behoben!** 
 
 Issue: [https://github.com/koppor/stupro-jabref/issues/2](https://github.com/koppor/stupro-jabref/issues/2)
 
@@ -105,7 +105,8 @@ Bemerkung  – Besondere Veränderungen
 3.	sudo apt-get install oracle-java8-installer
 4.	java –jar JabRef-3.6-JavaFX.jar
 
-**Java Version**
+**Java Version:**
+
 Java version &quot;1.8.0\_101&quot;Java(TM) SE Runtime Environment (build 1.8.0\_101-b13)Java HotSpot(TM) Client  VM (build 25.101-b13, mixed mode)
 
 ### Ubuntu 16 04 LTS 64 Bit Englisch
@@ -127,7 +128,8 @@ Da dort alles optimal angezeigt wurde, habe ich andere zusätzlich andere JDK ohn
 3. sudo apt-get install oracle-java8-installer
 4. java –jar JabRef-3.6-JavaFX.jar
 
-**Java Version**
+**Java Version:**
+
 Java version &quot;1.8.0\_101&quot;Java(TM) SE Runtime Environment (build 1.8.0\_101-b13)Java HotSpot(TM) 64-Bit Server VM (build 25.101-b13, mixed mode)
 
 ### Ubuntu 16 04 LTS 64 Bit Englisch OpenJDK
@@ -146,7 +148,8 @@ Java version &quot;1.8.0\_101&quot;Java(TM) SE Runtime Environment (build 1.8.0\
 1. sudo apt-get install openjdk-8-jdk
 2. sudo apt-get install openjfx
 
-**Java Version**
+**Java Version:**
+
 Openjdk version &quot;1.8.0\_91&quot;OpenJDK Runtime Environment (build 1.8.0\_91-8u91-8u91-b14-3ubuntu1~16.04.1-b14)OpenJDK 64-Bit Server VM (build 25.91-b14, mixed mode)
 
 
@@ -168,7 +171,8 @@ Openjdk version &quot;1.8.0\_91&quot;OpenJDK Runtime Environment (build 1.8.0\_9
 3. sudo apt-get install oracle-java8-installer
 4. java –jar JabRef-3.6-JavaFX.jar
 
-**Java Version**
+**Java Version:**
+
 Java version &quot;1.8.0\_92&quot;Java(TM) SE Runtime Environment (build 1.8.0\_92-b14)Java HotSpot(TM) Client VM (build 25.92-b14, mixed mode)
 
 ### Ubuntu 14 04 LTS 64 Bit Englisch
@@ -190,7 +194,8 @@ Java version &quot;1.8.0\_92&quot;Java(TM) SE Runtime Environment (build 1.8.0\_
 *	[https://wiki.ubuntuusers.de/Java/Installation/Oracle\_Java/Java\_8/](https://wiki.ubuntuusers.de/Java/Installation/Oracle_Java/Java_8/)Download, 
 *	Alternativen-System eingerichtet &amp; konfiguriert.  |
 
-**Java Version**
+**Java Version:**
+
 Java version &quot;1.8.0\_92&quot;Java(TM) SE Runtime Environment (build 1.8.0\_92-b14)Java HotSpot(TM) 64-Bit Server VM (build 25.92-b14, mixed mode)
 
 ### Ubuntu 14 04 LTS 64 Bit Englisch OpenJDK OpenJFX
@@ -215,7 +220,8 @@ Wird nicht unterstützt und konnte somit nicht ausgeführt werden.
 4. alternatives --config java (2)
 5. java –jar JaBRef
 
-**Java Version**
+**Java Version:**
+
 Java version &quot;1.8.0\_101&quot;Java(TM) SE Runtime Environment (build 1.8.0\_101-b13)Java HotSpot(TM)Server VM (build 25.101-b13, mixed mode)
 
 ### Fedora 23 64 Bit Englisch
@@ -236,7 +242,8 @@ Java version &quot;1.8.0\_101&quot;Java(TM) SE Runtime Environment (build 1.8.0\
 4. alternatives --config java (2)
 5. java –jar JaBRef
 
-**Java Version**
+**Java Version:**
+
 Java version &quot;1.8.0\_101&quot;Java(TM) SE Runtime Environment (build 1.8.0\_101-b13)Java HotSpot(TM) 64-Bit Server VM (build 25.101-b13, mixed mode) 
 
 ### Fedora 23 64 Bit Deutsch
@@ -257,7 +264,8 @@ Java version &quot;1.8.0\_101&quot;Java(TM) SE Runtime Environment (build 1.8.0\
 4. alternatives --config java (2)
 5. java –jar JaBRef
 
-**Java Version**
+**Java Version:**
+
 Java version &quot;1.8.0\_101&quot;Java(TM) SE Runtime Environment (build 1.8.0\_101-b13)Java HotSpot(TM) 64-Bit Server VM (build 25.101-b13, mixed mode)
 
 ### Debian Jessie 8 32 Bit
@@ -275,7 +283,8 @@ Java version &quot;1.8.0\_101&quot;Java(TM) SE Runtime Environment (build 1.8.0\
 1. Anleitung: [https://wiki.debian.org/JavaPackage](https://wiki.debian.org/JavaPackage)
 2. Java –jar JabRef
 
-**Java Version**
+**Java Version:**
+
 Java version &quot;1.8.0\_101&quot;Java(TM) SE Runtime Environment (build 1.8.0\_101-b13)Java HotSpot(TM) Client VM (build 25.101-b13, mixed mode)
 
 ### Debian Jessie 8 64 Bit
@@ -293,7 +302,8 @@ Java version &quot;1.8.0\_101&quot;Java(TM) SE Runtime Environment (build 1.8.0\
 1. Anleitung: [https://wiki.debian.org/JavaPackage](https://wiki.debian.org/JavaPackage)
 2. Java –jar JabRef
 
-**Java Version**
+**Java Version:**
+
 Java version &quot;1.8.0\_101&quot;Java(TM) SE Runtime Environment (build 1.8.0\_101-b13)Java HotSpot(TM) 64-Bit Server VM (build 25.101-b13, mixed mode)
 
 ### CentOS 6 32 Bit
@@ -311,7 +321,8 @@ Java version &quot;1.8.0\_101&quot;Java(TM) SE Runtime Environment (build 1.8.0\
 1. Heruntergeladen von [oracle](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)
 2. sudo yum localinstall jre-8u101-linux- i586.rpm
 
-**Java Version**
+**Java Version:**
+
 Java version &quot;1.8.0\_101&quot;Java(TM) SE Runtime Environment (build 1.8.0\_101-b13)Java HotSpot(TM)Client VM (build 25.101-b13, mixed mode)
 
 ### CentOS 6 64 Bit
@@ -329,7 +340,8 @@ Java version &quot;1.8.0\_101&quot;Java(TM) SE Runtime Environment (build 1.8.0\
 1. Heruntergeladen von [oracle](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)
 2. sudo yum localinstall jre-8u101-linux-x64.rpm
 
-**Java Version**
+**Java Version:**
+
 Java version &quot;1.8.0\_101&quot;Java(TM) SE Runtime Environment (build 1.8.0\_101-b13)Java HotSpot(TM) 64-Bit Server VM (build 25.101-b13, mixed mode)
 
 ### CentOS 7 64 Bit
@@ -347,7 +359,8 @@ Java version &quot;1.8.0\_101&quot;Java(TM) SE Runtime Environment (build 1.8.0\
 1. Heruntergeladen von [oracle](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)
 2. sudo yum localinstall jre-8u101-linux-x64.rpm
 
-**Java Version**
+**Java Version:**
+
 Java version &quot;1.8.0\_101&quot;Java(TM) SE Runtime Environment (build 1.8.0\_101-b13)Java HotSpot(TM) 64-Bit Server VM (build 25.101-b13, mixed mode)
 
 ### Windows 10 64 Bit Englisch
@@ -366,7 +379,8 @@ Java version &quot;1.8.0\_101&quot;Java(TM) SE Runtime Environment (build 1.8.0\
 2. Installations Wizzard ausgeführt
 3. Jar ausgeführt
 
-**Java Version**
+**Java Version:**
+
 java version &quot;1.8.0\_101&quot;Java(TM) SE Runtime Environment (build 1.8.0\_101-b13)Java HotSpot(TM) 64-Bit Server VM (build 25.101-b13, mixed mode)
 
 ### Mac OS 10
@@ -384,7 +398,8 @@ java version &quot;1.8.0\_101&quot;Java(TM) SE Runtime Environment (build 1.8.0\
 1. Dmg heruntergeladen von [oracle](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)
 2. Installations Wizzard ausgeführt Jar ausgeführt
 
-**Java Version**
+**Java Version:**
+
 java version &quot;1.8.0\_101&quot;Java(TM) SE Runtime Environment (build 1.8.0\_101-b13)Java HotSpot(TM) 64-Bit Server VM (build 25.101-b13, mixed mode)
 
 ## Generelle Anmerkungen:
