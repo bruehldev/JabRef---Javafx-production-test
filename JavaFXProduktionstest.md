@@ -1,5 +1,5 @@
 # **JavaFX Produktionstest in JabRef 3.6**
-WARNUNG - Die Fehlerquellen stammen von einer alten Version des JavaFX Branches und sind inzwischen größtenteils behoben! 
+**WARNUNG - Die Fehlerquellen stammen von einer alten Version des JavaFX Branches und sind inzwischen größtenteils behoben!** 
 
 Issue: [https://github.com/koppor/stupro-jabref/issues/2](https://github.com/koppor/stupro-jabref/issues/2)
 
@@ -98,13 +98,14 @@ Bemerkung  – Besondere Veränderungen
 | Mathscinet | Ja | - |
 | Groups rework | Ja | Statt dem Rechteckbild wird bei einigen Java Gruppe ein chinesisches Zeichen angezeigt. Journal und Keywords haben nur einen rechten Winkel. Siehe Anhang |
 | Journal abbreviations | Nein | Kein Feedback. |
-| Installation &amp; Ausführung |
+**Installation &amp; Ausführung:**
 1. sudo add-apt-repository ppa:webupd8team/java
 2. sudo apt-get update
 3. sudo apt-get install oracle-java8-installer
 4. java –jar JabRef-3.6-JavaFX.jar
- |
-| Java Version | Java version &quot;1.8.0\_101&quot;Java(TM) SE Runtime Environment (build 1.8.0\_101-b13)Java HotSpot(TM) Client  VM (build 25.101-b13, mixed mode) |
+
+**Java Version**
+Java version &quot;1.8.0\_101&quot;Java(TM) SE Runtime Environment (build 1.8.0\_101-b13)Java HotSpot(TM) Client  VM (build 25.101-b13, mixed mode)
 
 ### Ubuntu 16 04 LTS 64 Bit Englisch
 
