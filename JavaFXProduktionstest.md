@@ -94,7 +94,7 @@ Bemerkung  – Besondere Veränderungen
 | --- | --- | --- |
 | Error Console | Ja | - |
 | Aboutdialog | Ja | - |
-| Customize Key | Ja | Pinselbild wird nicht angezeigt. Stattdessen &quot;[]&quot; |
+| Customize Key | Ja | Pinselbild wird nicht angezeigt. Stattdessen &quot;[]&quot; [Siehe Anhang](https://github.com/bruehldev/JabRef---Javafx-production-test/blob/master/JavaFXProduktionstest%20Anhang/Ubuntu%2016.04%2032-Bit%20Deutsch%20Customize%20Key.JPG) |
 | Mathscinet | Ja | - |
 | Groups rework | Ja | Statt dem Rechteckbild wird bei einigen Java Gruppe ein chinesisches Zeichen angezeigt. Journal und Keywords haben nur einen rechten Winkel. [Siehe Anhang](https://github.com/bruehldev/JabRef---Javafx-production-test/blob/master/JavaFXProduktionstest%20Anhang/Ubuntu%2016.04%2032-Bit%20Deutsch%20Groups%20rework.JPG) |
 | Journal abbreviations | Nein | Kein Feedback. |
@@ -120,32 +120,34 @@ Da dort alles optimal angezeigt wurde, habe ich andere zusätzlich andere JDK ohn
 | Mathscinet | Ja | - |
 | Groups rework | Ja | - |
 | Journal abbreviations | Ja | - |
-| Oracle JDK 6 or 7 | Error: Could not find or load main class net.sf.jabref.JabRefMain |
-| OpenJDK 8 (Default)Not Oracle | Error: Could not find or load main class net.sf.jabref.JabRefMain |
-| Installation &amp; Ausführung |
+**Installation &amp; Ausführung:**
+
 1. sudo add-apt-repository ppa:webupd8team/java
 2. sudo apt-get update
 3. sudo apt-get install oracle-java8-installer
 4. java –jar JabRef-3.6-JavaFX.jar
- |
-| Java Version | Java version &quot;1.8.0\_101&quot;Java(TM) SE Runtime Environment (build 1.8.0\_101-b13)Java HotSpot(TM) 64-Bit Server VM (build 25.101-b13, mixed mode) |
+
+**Java Version**
+Java version &quot;1.8.0\_101&quot;Java(TM) SE Runtime Environment (build 1.8.0\_101-b13)Java HotSpot(TM) 64-Bit Server VM (build 25.101-b13, mixed mode)
 
 ### Ubuntu 16 04 LTS 64 Bit Englisch OpenJDK
 
-[AWT-EventQueue-0] WARN: net.sf.jabref.JabRefGUI – There seem to be problems with OPENJDK and the default GTK Look&amp;Feel. Using Metal L&amp;F instead. Change to another L&amp;F with caution.
+[AWT-EventQueue-0] WARN: net.sf.jabref.JabRefGUI – There seem to be problems with OPENJDK and the default GTK Look&amp;Feel. Using Metal L&amp;F instead. Change to another L&amp;F with caution. [Siehe Anhang](https://github.com/bruehldev/JabRef---Javafx-production-test/blob/master/JavaFXProduktionstest%20Anhang/Ubuntu%2016.04%2064-Bit%20Deutsch%20OpenJDK%20%26%20OpenJFXJPG.JPG)
 
 | Error Console | Ja | - |
 | --- | --- | --- |
 | Aboutdialog | Ja | - |
 | Customize Key | Ja | - |
 | Mathscinet | Ja | - |
-| Groups rework | Ja | Neue Zeichen (Siehe Anhang) |
+| Groups rework | Ja | Neue Zeichen ([Siehe Anhang](https://github.com/bruehldev/JabRef---Javafx-production-test/blob/master/JavaFXProduktionstest%20Anhang/Ubuntu%2016.04%2064-Bit%20Groups%20rework%20Full.JPG) |
 | Journal abbreviations | Ja | - |
-| Installation &amp; Ausführung |
+**Installation &amp; Ausführung:**
+
 1. sudo apt-get install openjdk-8-jdk
 2. sudo apt-get install openjfx
- |
-| Java Version | Openjdk version &quot;1.8.0\_91&quot;OpenJDK Runtime Environment (build 1.8.0\_91-8u91-8u91-b14-3ubuntu1~16.04.1-b14)OpenJDK 64-Bit Server VM (build 25.91-b14, mixed mode) |
+
+**Java Version**
+Openjdk version &quot;1.8.0\_91&quot;OpenJDK Runtime Environment (build 1.8.0\_91-8u91-8u91-b14-3ubuntu1~16.04.1-b14)OpenJDK 64-Bit Server VM (build 25.91-b14, mixed mode)
 
 
 
@@ -159,13 +161,15 @@ Da dort alles optimal angezeigt wurde, habe ich andere zusätzlich andere JDK ohn
 | Mathscinet | Ja | - |
 | Groups rework | Ja | - |
 | Journal abbreviations | Ja | - |
-| Installation &amp; Ausführung |
+**Installation &amp; Ausführung:**
+
 1. sudo add-apt-repository ppa:webupd8team/java
 2. sudo apt-get update
 3. sudo apt-get install oracle-java8-installer
 4. java –jar JabRef-3.6-JavaFX.jar
- |
-| Java Version | Java version &quot;1.8.0\_92&quot;Java(TM) SE Runtime Environment (build 1.8.0\_92-b14)Java HotSpot(TM) Client VM (build 25.92-b14, mixed mode) |
+
+**Java Version**
+Java version &quot;1.8.0\_92&quot;Java(TM) SE Runtime Environment (build 1.8.0\_92-b14)Java HotSpot(TM) Client VM (build 25.92-b14, mixed mode)
 
 ### Ubuntu 14 04 LTS 64 Bit Englisch
 
@@ -181,12 +185,17 @@ Da dort alles optimal angezeigt wurde, habe ich andere zusätzlich andere JDK ohn
 2. Versuch: Neustart-&gt;Keine Probleme
 3. Versuch: Keine Probleme
  |
-| Installation &amp; Ausführung | [https://wiki.ubuntuusers.de/Java/Installation/Oracle\_Java/Java\_8/](https://wiki.ubuntuusers.de/Java/Installation/Oracle_Java/Java_8/)Download, Alternativen-System eingerichtet &amp; konfiguriert.  |
-| Java Version | Java version &quot;1.8.0\_92&quot;Java(TM) SE Runtime Environment (build 1.8.0\_92-b14)Java HotSpot(TM) 64-Bit Server VM (build 25.92-b14, mixed mode) |
+**Installation &amp; Ausführung:**
+
+*	[https://wiki.ubuntuusers.de/Java/Installation/Oracle\_Java/Java\_8/](https://wiki.ubuntuusers.de/Java/Installation/Oracle_Java/Java_8/)Download, 
+*	Alternativen-System eingerichtet &amp; konfiguriert.  |
+
+**Java Version**
+Java version &quot;1.8.0\_92&quot;Java(TM) SE Runtime Environment (build 1.8.0\_92-b14)Java HotSpot(TM) 64-Bit Server VM (build 25.92-b14, mixed mode)
 
 ### Ubuntu 14 04 LTS 64 Bit Englisch OpenJDK OpenJFX
 
-Wird nicht unterstützt und konnte somit nicht ausfeführt werden.
+Wird nicht unterstützt und konnte somit nicht ausgeführt werden.
 
 ### Fedora 23 32 Bit Englisch
 
@@ -194,18 +203,20 @@ Wird nicht unterstützt und konnte somit nicht ausfeführt werden.
 | --- | --- | --- |
 | Error Console | Ja | - |
 | Aboutdialog | Ja | - |
-| Customize Key | Ja | Pinselbild wird nicht angezeigt. Stattdessen &quot;[]&quot; |
+| Customize Key | Ja | Pinselbild wird nicht angezeigt. Stattdessen &quot;[]&quot; [Siehe Anhang](https://github.com/bruehldev/JabRef---Javafx-production-test/blob/master/JavaFXProduktionstest%20Anhang/Fedora%2023%2032-Bit%20Englisch%20Customize%20Key.JPG) |
 | Mathscinet | Ja | - |
-| Groups rework | Ja | Statt dem Rechteckbild wird bei einigen Java Gruppe ein chinesisches Zeichen angezeigt. Journal und Keywords haben nur einen rechten Winkel. Siehe Anhang |
+| Groups rework | Ja | Statt dem Rechteckbild wird bei einigen Java Gruppe ein chinesisches Zeichen angezeigt. Journal und Keywords haben nur einen rechten Winkel. [Siehe Anhang](https://github.com/bruehldev/JabRef---Javafx-production-test/blob/master/JavaFXProduktionstest%20Anhang/Fedora%2023%2032-Bit%20Englisch%20Groups%20rework.JPG) |
 | Journal abbreviations | Ja | - |
-| Installation &amp; Ausführung |
+**Installation &amp; Ausführung:**
+
 1. Download Oracle JDK (i586)
 2. Installieren mit rpm -ivh jdk-8u101-linux-x64.rpm
 3. Upgraden mit rpm -Uvh jdk-8u101-linux-x64.rpm
 4. alternatives --config java (2)
 5. java –jar JaBRef
-  |
-| Java Version | Java version &quot;1.8.0\_101&quot;Java(TM) SE Runtime Environment (build 1.8.0\_101-b13)Java HotSpot(TM)Server VM (build 25.101-b13, mixed mode) |
+
+**Java Version**
+Java version &quot;1.8.0\_101&quot;Java(TM) SE Runtime Environment (build 1.8.0\_101-b13)Java HotSpot(TM)Server VM (build 25.101-b13, mixed mode)
 
 ### Fedora 23 64 Bit Englisch
 
@@ -217,14 +228,16 @@ Wird nicht unterstützt und konnte somit nicht ausfeführt werden.
 | Mathscinet | Ja | - |
 | Groups rework | Ja | - |
 | Journal abbreviations | Ja | - |
-| Installation &amp; Ausführung |
+**Installation &amp; Ausführung:**
+
 1. Download Oracle JDK
 2. Installieren mit rpm -ivh jdk-8u101-linux-x64.rpm
 3. Upgraden mitrpm -Uvh jdk-8u101-linux-x64.rpm
 4. alternatives --config java (2)
 5. java –jar JaBRef
-  |
-| Java Version | Java version &quot;1.8.0\_101&quot;Java(TM) SE Runtime Environment (build 1.8.0\_101-b13)Java HotSpot(TM) 64-Bit Server VM (build 25.101-b13, mixed mode) |
+
+**Java Version**
+Java version &quot;1.8.0\_101&quot;Java(TM) SE Runtime Environment (build 1.8.0\_101-b13)Java HotSpot(TM) 64-Bit Server VM (build 25.101-b13, mixed mode) 
 
 ### Fedora 23 64 Bit Deutsch
 
@@ -236,14 +249,16 @@ Wird nicht unterstützt und konnte somit nicht ausfeführt werden.
 | Mathscinet | Ja | - |
 | Groups rework | Ja | - |
 | Journal abbreviations | Nein | Kein Feedback |
-| Installation &amp; Ausführung |
+**Installation &amp; Ausführung:**
+
 1. Download Oracle JDK
 2. Installieren mit rpm -ivh jdk-8u101-linux-x64.rpm
 3. Upgraden mitrpm -Uvh jdk-8u101-linux-x64.rpm
 4. alternatives --config java (2)
 5. java –jar JaBRef
-  |
-| Java Version | Java version &quot;1.8.0\_101&quot;Java(TM) SE Runtime Environment (build 1.8.0\_101-b13)Java HotSpot(TM) 64-Bit Server VM (build 25.101-b13, mixed mode) |
+
+**Java Version**
+Java version &quot;1.8.0\_101&quot;Java(TM) SE Runtime Environment (build 1.8.0\_101-b13)Java HotSpot(TM) 64-Bit Server VM (build 25.101-b13, mixed mode)
 
 ### Debian Jessie 8 32 Bit
 
@@ -255,11 +270,13 @@ Wird nicht unterstützt und konnte somit nicht ausfeführt werden.
 | Mathscinet | Ja | - |
 | Groups rework | Ja | - |
 | Journal abbreviations | Ja | - |
-| Installation &amp; Ausführung |
+**Installation &amp; Ausführung:**
+
 1. Anleitung: [https://wiki.debian.org/JavaPackage](https://wiki.debian.org/JavaPackage)
 2. Java –jar JabRef
- |
-| Java Version | Java version &quot;1.8.0\_101&quot;Java(TM) SE Runtime Environment (build 1.8.0\_101-b13)Java HotSpot(TM) Client VM (build 25.101-b13, mixed mode) |
+
+**Java Version**
+Java version &quot;1.8.0\_101&quot;Java(TM) SE Runtime Environment (build 1.8.0\_101-b13)Java HotSpot(TM) Client VM (build 25.101-b13, mixed mode)
 
 ### Debian Jessie 8 64 Bit
 
@@ -271,12 +288,13 @@ Wird nicht unterstützt und konnte somit nicht ausfeführt werden.
 | Mathscinet | Ja | - |
 | Groups rework | Ja | - |
 | Journal abbreviations | Ja | - |
-| Installation &amp; Ausführung |
+**Installation &amp; Ausführung:**
+
 1. Anleitung: [https://wiki.debian.org/JavaPackage](https://wiki.debian.org/JavaPackage)
 2. Java –jar JabRef
- |
-| Java Version | Java version &quot;1.8.0\_101&quot;Java(TM) SE Runtime Environment (build 1.8.0\_101-b13)Java HotSpot(TM) 64-Bit Server VM (build 25.101-b13, mixed mode) |
-| OpenJDK(OpenJFX wird nicht unterstützt)Ice Tea | Exception in thread &quot;main&quot; java.lang.UnsupportedClassVersionError:  net/s=f/jabref/JabRefMain :   Unsupported major.minor version 52.0   at java.lang.ClassLoader.defineClass1(Native Method   at java.lang.ClassLoader.defineClass(ClassLoader.java:803) |
+
+**Java Version**
+Java version &quot;1.8.0\_101&quot;Java(TM) SE Runtime Environment (build 1.8.0\_101-b13)Java HotSpot(TM) 64-Bit Server VM (build 25.101-b13, mixed mode)
 
 ### CentOS 6 32 Bit
 
@@ -286,13 +304,15 @@ Wird nicht unterstützt und konnte somit nicht ausfeführt werden.
 | Aboutdialog | Ja | - |
 | Customize Key | Ja | - |
 | Mathscinet | Ja | - |
-| Groups rework | Ja | Statt dem Rechteckbild wird bei einigen Java Gruppe ein chinesisches Zeichen angezeigt. Journal und Keywords haben nur einen rechten Winkel. Siehe Anhang |
+| Groups rework | Ja | Statt dem Rechteckbild wird bei einigen Java Gruppe ein chinesisches Zeichen angezeigt. Journal und Keywords haben nur einen rechten Winkel. [Siehe Anhang](https://github.com/bruehldev/JabRef---Javafx-production-test/blob/master/JavaFXProduktionstest%20Anhang/CentOS%206%2032-Bit%20Groups%20rework.JPG) |
 | Journal abbreviations | Ja | - |
-| Installation &amp; Ausführung |
+**Installation &amp; Ausführung:**
+
 1. Heruntergeladen von [oracle](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)
 2. sudo yum localinstall jre-8u101-linux- i586.rpm
-  |
-| Java Version | Java version &quot;1.8.0\_101&quot;Java(TM) SE Runtime Environment (build 1.8.0\_101-b13)Java HotSpot(TM)Client VM (build 25.101-b13, mixed mode) |
+
+**Java Version**
+Java version &quot;1.8.0\_101&quot;Java(TM) SE Runtime Environment (build 1.8.0\_101-b13)Java HotSpot(TM)Client VM (build 25.101-b13, mixed mode)
 
 ### CentOS 6 64 Bit
 
@@ -304,11 +324,13 @@ Wird nicht unterstützt und konnte somit nicht ausfeführt werden.
 | Mathscinet | Ja | - |
 | Groups rework | Ja | - |
 | Journal abbreviations | Ja | - |
-| Installation &amp; Ausführung |
+**Installation &amp; Ausführung:**
+
 1. Heruntergeladen von [oracle](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)
 2. sudo yum localinstall jre-8u101-linux-x64.rpm
-  |
-| Java Version | Java version &quot;1.8.0\_101&quot;Java(TM) SE Runtime Environment (build 1.8.0\_101-b13)Java HotSpot(TM) 64-Bit Server VM (build 25.101-b13, mixed mode) |
+
+**Java Version**
+Java version &quot;1.8.0\_101&quot;Java(TM) SE Runtime Environment (build 1.8.0\_101-b13)Java HotSpot(TM) 64-Bit Server VM (build 25.101-b13, mixed mode)
 
 ### CentOS 7 64 Bit
 
@@ -320,11 +342,13 @@ Wird nicht unterstützt und konnte somit nicht ausfeführt werden.
 | Mathscinet | Ja | - |
 | Groups rework | Ja | - |
 | Journal abbreviations | Ja | - |
-| Installation &amp; Ausführung |
+**Installation &amp; Ausführung:**
+
 1. Heruntergeladen von [oracle](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)
 2. sudo yum localinstall jre-8u101-linux-x64.rpm
-  |
-| Java Version | Java version &quot;1.8.0\_101&quot;Java(TM) SE Runtime Environment (build 1.8.0\_101-b13)Java HotSpot(TM) 64-Bit Server VM (build 25.101-b13, mixed mode) |
+
+**Java Version**
+Java version &quot;1.8.0\_101&quot;Java(TM) SE Runtime Environment (build 1.8.0\_101-b13)Java HotSpot(TM) 64-Bit Server VM (build 25.101-b13, mixed mode)
 
 ### Windows 10 64 Bit Englisch
 
@@ -336,12 +360,14 @@ Wird nicht unterstützt und konnte somit nicht ausfeführt werden.
 | Mathscinet | Ja | - |
 | Groups rework | Ja | - |
 | Journal abbreviations | Ja | - |
-| Installation &amp; Ausführung |
+**Installation &amp; Ausführung:**
+
 1. Heruntergeladen von [oracle](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)
 2. Installations Wizzard ausgeführt
 3. Jar ausgeführt
- |
-| Java Version | java version &quot;1.8.0\_101&quot;Java(TM) SE Runtime Environment (build 1.8.0\_101-b13)Java HotSpot(TM) 64-Bit Server VM (build 25.101-b13, mixed mode) |
+
+**Java Version**
+java version &quot;1.8.0\_101&quot;Java(TM) SE Runtime Environment (build 1.8.0\_101-b13)Java HotSpot(TM) 64-Bit Server VM (build 25.101-b13, mixed mode)
 
 ### Mac OS 10
 
@@ -353,11 +379,13 @@ Wird nicht unterstützt und konnte somit nicht ausfeführt werden.
 | Mathscinet | Ja | - |
 | Groups rework | Ja | - |
 | Journal abbreviations | Ja | - |
-| Installation &amp; Ausführung |
+**Installation &amp; Ausführung:**
+
 1. Dmg heruntergeladen von [oracle](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)
 2. Installations Wizzard ausgeführt Jar ausgeführt
- |
-| Java Version | java version &quot;1.8.0\_101&quot;Java(TM) SE Runtime Environment (build 1.8.0\_101-b13)Java HotSpot(TM) 64-Bit Server VM (build 25.101-b13, mixed mode) |
+
+**Java Version**
+java version &quot;1.8.0\_101&quot;Java(TM) SE Runtime Environment (build 1.8.0\_101-b13)Java HotSpot(TM) 64-Bit Server VM (build 25.101-b13, mixed mode)
 
 ## Generelle Anmerkungen:
 
