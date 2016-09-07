@@ -96,13 +96,13 @@ Bemerkung  – Besondere Veränderungen
 | Aboutdialog | Ja | - |
 | Customize Key | Ja | Pinselbild wird nicht angezeigt. Stattdessen &quot;[]&quot; |
 | Mathscinet | Ja | - |
-| Groups rework | Ja | Statt dem Rechteckbild wird bei einigen Java Gruppe ein chinesisches Zeichen angezeigt. Journal und Keywords haben nur einen rechten Winkel. Siehe Anhang |
+| Groups rework | Ja | Statt dem Rechteckbild wird bei einigen Java Gruppe ein chinesisches Zeichen angezeigt. Journal und Keywords haben nur einen rechten Winkel. [Siehe Anhang](https://github.com/bruehldev/JabRef---Javafx-production-test/blob/master/JavaFXProduktionstest%20Anhang/Ubuntu%2016.04%2032-Bit%20Deutsch%20Groups%20rework.JPG) |
 | Journal abbreviations | Nein | Kein Feedback. |
 **Installation &amp; Ausführung:**
-1. sudo add-apt-repository ppa:webupd8team/java
-2. sudo apt-get update
-3. sudo apt-get install oracle-java8-installer
-4. java –jar JabRef-3.6-JavaFX.jar
+1.	sudo add-apt-repository ppa:webupd8team/java
+2.	sudo apt-get update
+3.	sudo apt-get install oracle-java8-installer
+4.	java –jar JabRef-3.6-JavaFX.jar
 
 **Java Version**
 Java version &quot;1.8.0\_101&quot;Java(TM) SE Runtime Environment (build 1.8.0\_101-b13)Java HotSpot(TM) Client  VM (build 25.101-b13, mixed mode)
